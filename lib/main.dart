@@ -71,7 +71,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     style: TextStyle(
                       fontSize: 70.0,
                       fontWeight: FontWeight.bold,
-                      color: Colors.blueAccent[400],
+                      color: Colors.blue[600],
                     ),
                   ),
                 ),
@@ -141,7 +141,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 child: Text(
                   'Forgot Password ?',
                   style: TextStyle(
-                      color: Colors.blueAccent[400],
+                      color: Colors.blue[600],
                       fontWeight: FontWeight.bold),
                 ),
               ),
@@ -151,8 +151,8 @@ class _MyHomePageState extends State<MyHomePage> {
               height: 40.0,
               child: Material(
                 borderRadius: BorderRadius.circular(20.0),
-                shadowColor: Colors.blueAccent,
-                color: Colors.blueAccent[400],
+                shadowColor: Colors.blue[600],
+                color: Colors.blue[600],
                 elevation: 7.0,
                 child: GestureDetector(
                   onTap: () {
@@ -185,7 +185,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     border: Border.all(
                       color: Colors.black,
                       style: BorderStyle.solid,
-                      width: 1.0,
+                      width: 2.0,
                     ),
                     color: Colors.transparent,
                     borderRadius: BorderRadius.circular(20.0)),
@@ -194,7 +194,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   children: <Widget>[
                     Center(
                       child: Image.asset(
-                        'assets/facebook.png',
+                        'assets/facebook2.png',
                         height: 25.0,
                       ),
                     ),
@@ -224,7 +224,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   child: Text(
                     'Sign in',
                     style: TextStyle(
-                      color: Colors.blueAccent[400],
+                      color: Colors.blue[600],
                       fontWeight: FontWeight.bold,
                     ),
                   ),
