@@ -1,7 +1,6 @@
 # loginUI
 
-A new Flutter project.
-
+Did Log in and Sign up with validation
 ## Getting Started
 
 This project is a starting point for a Flutter application.
